@@ -31,7 +31,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, h: FUN, s: '?'}
-  - {t: LANGUAGE 2, h: LANGUAGE 1}
+  - {t: '`', s: '~'}
   - Sft+F10
   - LEFT WIN
   - {t: '$$mdi:keyboard-esc$$', h: SYM}
