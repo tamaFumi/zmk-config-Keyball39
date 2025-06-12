@@ -31,7 +31,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, h: FUN, s: '?'}
-  - {t: '`', s: '~'}
+  - LANG ZENKAKUHANKAKU
   - Sft+F10
   - LEFT WIN
   - {t: '$$mdi:keyboard-esc$$', h: SYM}
