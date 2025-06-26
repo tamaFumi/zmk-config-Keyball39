@@ -67,18 +67,18 @@
             bindings = <
 &lt 6 Q      &kp W             &kp E           &kp R         &kp T                                  &kp Y        &kp U  &kp I            &kp O              &lt 5 P
 &mt LCTRL A  &mt LEFT_SHIFT S  &mt LEFT_ALT D  &kp F         &kp G                                  &kp H        &kp J  &mt RIGHT_ALT K  &mt RIGHT_SHIFT L  &mt RCTRL MINUS
-&kp Z        &kp X             &kp C           &kp V         &kp B                                  &kp N        &kp M  &kp COMMA        &kp DOT            &lt 3 SLASH
-&kp GRAVE    &kp LS(F10)       &kp LEFT_WIN    &lt 2 ESCAPE  &lt 1 SPACE  &lt 3 TAB  &kp BACKSPACE  &lt 1 ENTER                                             &lt 1 PRINTSCREEN
+&kp Z        &kp X             &kp C           &kp V         &kp B                                  &kp N        &kp M  &kp COMMA        &lt 3 PERIOD       &lt 2 SLASH
+&none        &none             &none           &lt 2 ESCAPE  &lt 1 SPACE  &lt 3 TAB  &kp BACKSPACE  &lt 1 ENTER                                             &none
             >;
         };
 
         number_layer {
             label = "NUM";
             bindings = <
-&kp ESC          &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &none                             &none      &kp KP_PLUS  &kp KP_MINUS  &kp KP_ASTERISK  &kp KP_SLASH
-&kp KP_NUMBER_0  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &msc SCRL_UP                      &mkp MB4   &mkp MB1     &kp UP_ARROW  &mkp MB2         &mkp MB3
-&kp KP_DOT       &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &msc SCRL_DOWN                    &mkp MB5   &kp LEFT     &kp DOWN      &kp RIGHT        &none
-&none            &none            &none            &kp ESCAPE       &kp SPACE       &kp TAB  &kp DEL  &kp ENTER                                              &none
+&kp GRAVE              &kp KP_NUMBER_7             &kp KP_NUMBER_8           &kp KP_NUMBER_9  &kp LEFT_GUI                      &kp LS(F10)  &kp KP_PLUS  &kp KP_MINUS  &kp KP_ASTERISK  &kp KP_SLASH
+&mt LCTRL KP_NUMBER_0  &mt LEFT_SHIFT KP_NUMBER_4  &mt LEFT_ALT KP_NUMBER_5  &kp KP_NUMBER_6  &msc SCRL_UP                      &mkp MB4     &mkp MB1     &kp UP_ARROW  &mkp MB2         &mkp MB3
+&kp KP_DOT             &kp KP_NUMBER_1             &kp KP_NUMBER_2           &kp KP_NUMBER_3  &msc SCRL_DOWN                    &mkp MB5     &kp LEFT     &kp DOWN      &kp RIGHT        &kp PRINTSCREEN
+&none                  &none                       &none                     &kp ESCAPE       &kp SPACE       &kp TAB  &kp DEL  &kp ENTER                                                &none
             >;
         };
 
@@ -95,10 +95,10 @@
         function_layer {
             label = "FUN";
             bindings = <
-&kp F1     &kp F2        &kp F3          &kp F4   &none                   &none   &kp HOME  &kp PAGE_UP  &kp PAGE_DOWN  &kp END
-&kp F5     &kp F6        &kp F7          &kp F8   &none                   &none   &none     &none        &none          &none
-&kp F9     &kp F10       &kp F11         &kp F12  &none                   &none   &none     &none        &none          &none
-&kp LCTRL  &kp LEFT_ALT  &kp LEFT_SHIFT  &trans   &trans  &trans  &trans  &trans                                        &trans
+&kp F1        &kp F2         &kp F3           &kp F4   &none                   &none   &kp HOME  &kp PAGE_UP    &kp PAGE_DOWN  &kp END
+&mt LCTRL F5  &mt LSHIFT F6  &mt LEFT_ALT F7  &kp F8   &none                   &none   &none     &kp RIGHT_ALT  &kp RSHIFT     &kp RCTRL
+&kp F9        &kp F10        &kp F11          &kp F12  &none                   &none   &none     &none          &none          &none
+&none         &none          &none            &trans   &trans  &trans  &trans  &trans                                          &trans
             >;
         };
 
