@@ -125,7 +125,7 @@
         snipe_layer {
             label = "SNIPE";
             bindings = <
-&trans  &bt BT_NXT  &bt BT_PRV  &bt BT_CLR  &bootloader                  &tog 7  &trans  &trans  &trans  &trans
+&trans  &bt BT_NXT  &bt BT_PRV  &bt BT_CLR  &bootloader                  &none   &trans  &trans  &trans  &tog 7
 &trans  &trans      &trans      &trans      &trans                       &trans  &trans  &trans  &trans  &trans
 &trans  &trans      &trans      &trans      &trans                       &trans  &trans  &trans  &trans  &trans
 &trans  &trans      &trans      &trans      &trans       &trans  &trans  &trans                          &trans
@@ -135,10 +135,10 @@
         hai2_layer {
             label = " ONISHI";
             bindings = <
-&lt 6 Q      &kp L             &kp U           &kp MINUS     &kp PERIOD                             &kp F        &kp W  &kp R            &kp Y              &lt 5 P
-&mt LCTRL E  &mt LEFT_SHIFT I  &mt LEFT_ALT A  &kp O         &kp COMMA                              &kp K        &kp T  &mt RIGHT_ALT N  &mt RIGHT_SHIFT S  &mt RCTRL H
-&kp SLASH    &kp Z             &kp X           &kp C         &kp V                                  &kp G        &kp D  &kp M            &lt 1 J            &lt 3 B
-&none        &none             &none           &lt 2 ESCAPE  &lt 1 SPACE  &lt 3 TAB  &kp BACKSPACE  &lt 1 ENTER                                             &none
+&trans       &kp L             &kp U           &kp MINUS  &kp PERIOD                  &kp F   &kp W  &kp R            &kp Y              &trans
+&mt LCTRL E  &mt LEFT_SHIFT I  &mt LEFT_ALT A  &kp O      &kp COMMA                   &kp K   &kp T  &mt RIGHT_ALT N  &mt RIGHT_SHIFT S  &mt RCTRL H
+&kp SLASH    &kp Z             &kp X           &kp C      &kp V                       &kp G   &kp D  &kp M            &lt 1 J            &lt 3 B
+&none        &none             &none           &trans     &trans      &trans  &trans  &trans                                             &none
             >;
         };
     };
