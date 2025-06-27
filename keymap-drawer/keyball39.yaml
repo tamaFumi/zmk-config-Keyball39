@@ -29,31 +29,31 @@ layers:
   - N
   - M
   - {t: ',', s: <}
-  - {t: ., s: '>'}
-  - {t: /, h: FUN, s: '?'}
-  - {t: '`', s: '~'}
-  - Sft+F10
-  - LEFT WIN
+  - {t: ., h: FUN}
+  - {t: /, h: SYM, s: '?'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-esc$$', h: SYM}
   - {t: '$$mdi:keyboard-space$$', h: NUM}
   - {t: '$$mdi:keyboard-tab$$', h: FUN}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', h: NUM}
-  - {t: PRINTSCREEN, h: NUM}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   NUM:
-  - $$mdi:keyboard-esc$$
+  - {t: '`', s: '~'}
   - KP 7
   - KP 8
   - KP 9
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:apple-keyboard-command$$
+  - Sft+F10
   - KP PLUS
   - KP MINUS
   - KP ASTERISK
   - KP SLASH
-  - KP 0
-  - KP 4
-  - KP 5
+  - {t: KP 0, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: KP 4, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: KP 5, h: '$$mdi:apple-keyboard-option$$'}
   - KP 6
   - $$mdi:pan-up$$
   - '&mkp MB4'
@@ -70,7 +70,7 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - PRINTSCREEN
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -79,7 +79,7 @@ layers:
   - $$mdi:keyboard-tab$$
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:keyboard-return$$', type: held alternate}
-  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   SYM:
   - Sft+1
   - Sft+2
@@ -110,11 +110,11 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - INT1
+  - {t: INT1, type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -131,16 +131,16 @@ layers:
   - PgUp
   - PgDn
   - END
-  - F5
-  - F6
-  - F7
+  - {t: F5, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: F6, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: F7, h: '$$mdi:apple-keyboard-option$$'}
   - F8
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
   - F9
   - F10
   - F11
@@ -149,11 +149,11 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
