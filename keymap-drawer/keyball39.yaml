@@ -40,6 +40,46 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', h: NUM}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+  ' ONISHI':
+  - {t: '$$mdi:transfer$$', type: trans}
+  - L
+  - U
+  - {t: '-', s: _}
+  - .
+  - F
+  - W
+  - R
+  - Y
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: E, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: I, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: A, h: '$$mdi:apple-keyboard-option$$'}
+  - O
+  - {t: ',', s: <}
+  - K
+  - T
+  - {t: N, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: H, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: /, s: '?'}
+  - Z
+  - X
+  - C
+  - V
+  - G
+  - D
+  - M
+  - {t: J, h: NUM}
+  - {t: B, h: FUN}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   NUM:
   - {t: '`', s: '~'}
   - KP 7
@@ -280,43 +320,3 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  ' ONISHI':
-  - {t: '$$mdi:transfer$$', type: trans}
-  - L
-  - U
-  - {t: '-', s: _}
-  - .
-  - F
-  - W
-  - R
-  - Y
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: E, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: I, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: A, h: '$$mdi:apple-keyboard-option$$'}
-  - O
-  - {t: ',', s: <}
-  - K
-  - T
-  - {t: N, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: S, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: H, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: /, s: '?'}
-  - Z
-  - X
-  - C
-  - V
-  - G
-  - D
-  - M
-  - {t: J, h: NUM}
-  - {t: B, h: FUN}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
