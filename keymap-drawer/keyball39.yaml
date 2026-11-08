@@ -91,9 +91,9 @@ layers:
   - KP MINUS
   - KP ASTERISK
   - KP SLASH
-  - {t: KP 0, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: KP 4, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: KP 5, h: '$$mdi:apple-keyboard-option$$'}
+  - KP 0
+  - KP 4
+  - KP 5
   - KP 6
   - $$mdi:pan-up$$
   - '&mkp MB4'
